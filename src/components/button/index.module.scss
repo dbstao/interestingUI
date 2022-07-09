@@ -1,0 +1,53 @@
+// mixin的强大之处，在于可以指定参数和缺省值。
+// @mixin bgwhite2($value: 10px) {
+@mixin bgwhite2 {
+  　　background-color: #fff;
+}
+
+button {
+  // background-color: red;
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+}
+
+$color: #1890ff;
+.primary {
+  border: 1px solid $color;
+  background-color: $color;
+}
+.bg-white {
+  background-color: #fff;
+}
+.dashed {
+  //   @extend .bg-white;
+  @include bgwhite2;
+  border: 1px dashed #ccc;
+}
+
+.text {
+  @extend .bg-white;
+}
+
+.link {
+  @extend .bg-white;
+  color: $color;
+}
+.default {
+  @extend .bg-white;
+  border: 1px solid #ccc;
+}
+.large {
+  padding: 10px 15px;
+}
+.middle {
+  padding: 7px 15px;
+}
+.small {
+  padding: 0px 15px;
+}
+
+// 使用的时候，根据需要加入参数：
+div {
+  // 　　@include left(20px);
+}
