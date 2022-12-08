@@ -11,14 +11,43 @@ button {
   border-radius: 2px;
 }
 
-$color: #1890ff;
-.primary {
+$color: #6aca9a;
+
+// type = ?
+.type-primary {
   border: 1px solid $color;
   background-color: $color;
 }
+
+.type-success {
+  border: 1px solid #71c547;
+  background-color: #71c547;
+}
+
+.error {
+  border: 1px solid #e54a4d;
+  background-color: #e54a4d;
+}
+
+.info {
+  border: 1px solid #7b7b7b;
+  background-color: #7b7b7b;
+}
+
+.warning {
+  border: 1px solid #eee243;
+  background-color: #eee243;
+}
+
+// 字体颜色
+.color-white {
+  color: #fff;
+}
+
 .bg-white {
   background-color: #fff;
 }
+
 .dashed {
   //   @extend .bg-white;
   @include bgwhite2;
@@ -33,18 +62,18 @@ $color: #1890ff;
   @extend .bg-white;
   color: $color;
 }
-.default {
-  @extend .bg-white;
-  border: 1px solid #ccc;
-}
+// .default {
+//   @extend .bg-white;
+//   border: 1px solid #ccc;
+// }
 .large {
-  padding: 10px 15px;
+  padding: 8px 11px;
 }
-.middle {
-  padding: 7px 15px;
+.default {
+  padding: 6px;
 }
 .small {
-  padding: 0px 15px;
+  padding: 3px 6px;
 }
 
 // 使用的时候，根据需要加入参数：

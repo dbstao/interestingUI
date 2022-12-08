@@ -14,3 +14,12 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+# button components
+
+API
+|  表头   | 表头  |
+|  ----  | ----  |
+| type  | primary、success、warning、info、、、 |
+| disabled  | disabled |
+| ghost  | 幽灵属性，使按钮背景透明 |
