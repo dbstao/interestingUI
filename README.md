@@ -15,6 +15,8 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
 
+- [Naive UI]（https://www.naiveui.com/zh-CN/os-theme)
+- [vuetifyjs](https://vuetifyjs.com/en/)
 # button components
 
 API
@@ -23,3 +25,6 @@ API
 | type  | primary、success、warning、info、、、 |
 | disabled  | disabled |
 | ghost  | 幽灵属性，使按钮背景透明 |
+| shape  | default 、 circle 、 round |
+| href  | href |
+| link  | link |

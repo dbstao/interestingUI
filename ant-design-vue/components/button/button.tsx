@@ -149,7 +149,8 @@ export default defineComponent({
     return () => {
       const { icon = slots.icon?.() } = props;
       const children = flattenChildren(slots.default?.());
-
+      // console.log('children',children);
+      
       isNeedInserted = children.length === 1 && !icon && !isUnborderedButtonType(props.type);
 
       const { type, htmlType, disabled, href, title, target, onMousedown } = props;
@@ -185,12 +186,14 @@ export default defineComponent({
 
       const kids = children.map(child =>
         insertSpace(child, isNeedInserted && autoInsertSpace.value),
+        
       );
+      // console.log('kids',kids);
 
       if (href !== undefined) {
         return (
           <a {...buttonProps} href={href} target={target} ref={buttonNodeRef}>
-            {iconNode}
+            {iconNode}12
             {kids}
           </a>
         );
@@ -199,17 +202,17 @@ export default defineComponent({
       const buttonNode = (
         <button {...buttonProps} ref={buttonNodeRef} type={htmlType}>
           {iconNode}
-          {kids}
+          {kids}fsda
         </button>
       );
 
       if (isUnborderedButtonType(type)) {
-        return buttonNode;
+        return buttonNode + '3243';
       }
 
       return (
         <Wave ref="wave" disabled={!!innerLoading.value}>
-          {buttonNode}
+          {buttonNode}11
         </Wave>
       );
     };

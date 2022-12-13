@@ -39,6 +39,14 @@ $color: #6aca9a;
   background-color: #eee243;
 }
 
+// shape
+.round {
+  border-radius: 30px;
+}
+.circle{
+  // width: ;
+  border-radius: 50%;
+}
 // 字体颜色
 .color-white {
   color: #fff;
@@ -76,6 +84,9 @@ $color: #6aca9a;
   padding: 3px 6px;
 }
 
+.wmax{
+  width: 100%;
+}
 // 使用的时候，根据需要加入参数：
 div {
   // 　　@include left(20px);
