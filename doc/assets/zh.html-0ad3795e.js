@@ -1,0 +1,1 @@
+import{_ as o,M as a,p as t,q as n,N as c,R as s}from"./framework-7e1a102e.js";const r={},_=s("p",null,"import aa from './demo/aa.vue'",-1);function l(m,p){const e=a("aa");return t(),n("div",null,[_,c(e)])}const f=o(r,[["render",l],["__file","zh.html.vue"]]);export{f as default};
