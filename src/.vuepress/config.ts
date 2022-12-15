@@ -66,7 +66,7 @@ export default defineUserConfig({
     registerComponentsPlugin({
       // 配置项
       components: {
-        intButton: path.resolve(__dirname, '../components/button/button.tsx'),
+        test: path.resolve(__dirname, '../components/button/button.tsx'),
         // aa: path.resolve(__dirname, '../components/button/demo/buttonType.vue'),
         // componentsDir: path.resolve(__dirname, '../components'),
       },

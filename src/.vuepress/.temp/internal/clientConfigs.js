@@ -5,7 +5,7 @@ import clientConfig3 from '/Users/dh/dev/interestingUI/node_modules/@vuepress/pl
 import clientConfig4 from '/Users/dh/dev/interestingUI/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig5 from '/Users/dh/dev/interestingUI/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from '/Users/dh/dev/interestingUI/node_modules/@vuepress/theme-default/lib/client/config.js'
-import clientConfig7 from '/Users/dh/dev/interestingUI/src/.vuepress/.temp/register-components/clientConfig.646c2fce.js'
+import clientConfig7 from '/Users/dh/dev/interestingUI/src/.vuepress/.temp/register-components/clientConfig.547cb25a.js'
 import clientConfig8 from '/Users/dh/dev/interestingUI/src/.vuepress/client.ts'
 
 export const clientConfigs = [
